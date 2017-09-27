@@ -9,8 +9,9 @@ SmartThings Device Handler for the Cooper RF9500 Battery Operated Switch. This d
 
 ## This device handler supports
 1. On / Off
-2. Dimming
-3. Virtual dimming below 0 and above 100 so if you are using multiple of these, you don't need to worry about them staying the same value. Up is up, down is down.
+1. Dimming
+1. Virtual dimming below 0 and above 100 so if you are using multiple of these, you don't need to worry about them staying the same value. Up is up, down is down.
+1. Button push (will send whenever main button is pressed)
 
 ## Installation via GitHub Integration
 1. Open SmartThings IDE in your web browser and log into your account.
