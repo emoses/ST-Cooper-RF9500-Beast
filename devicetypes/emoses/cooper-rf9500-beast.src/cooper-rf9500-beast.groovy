@@ -204,7 +204,7 @@ def off() {
 }
 
 def buttonPush() {
-    return createEvent(name: "button", value: "pushed", isStateChanged: true)
+    return createEvent(name: "button", value: "pushed", isStateChange: true)
 }
 
 def zwaveEvent(physicalgraph.zwave.commands.wakeupv1.WakeUpNotification cmd) {
