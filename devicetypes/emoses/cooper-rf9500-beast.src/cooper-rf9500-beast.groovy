@@ -50,6 +50,11 @@ metadata {
 			state "default", label:"", action:"refresh.refresh", icon:"st.secondary.refresh"
 		}
 	}
+    
+    simulator {
+    	status "on":  "command: 2001, payload: FF"
+		status "off": "command: 2001, payload: 00"
+    }
 }
 
 // Pressed: CRF9500 -- parse -- description = zw device: 2E, command: 2001, payload: FF
